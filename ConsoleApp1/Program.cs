@@ -35,9 +35,9 @@ namespace SnowboardApp.UI
             //AddToTable.DeleteAthleteFromContest();
             //AddToTable.FindAthleteContest();
 
-            var result = ShowFirstAthelte();
-            Console.WriteLine("WAIT A SECOND");
-            Console.WriteLine(result.Result.LastName);
+            //var result = ShowFirstAthelte();
+            //Console.WriteLine("WAIT A SECOND");
+            //Console.WriteLine(result.Result.LastName);
 
             //Jag valde att använda Async för att jag tycker att man har bättre kontroll över flödet då det är lättare att se när en specifik task skall köras.
             //Det verkar också som Async används mer, kanske för att det minskar risken för race conditions
