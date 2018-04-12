@@ -198,6 +198,7 @@ namespace SnowboardApp.UI
             }
         }
 
+
         public static void Update()
         {
 
@@ -222,8 +223,6 @@ namespace SnowboardApp.UI
 
 
         }
-
-
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using SnowboardApp.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SnowboardApp.Data;
 using SnowboardApp.Domain;
 using System;
 using System.Collections.Generic;
@@ -33,8 +34,13 @@ namespace SnowboardApp.UI
             //AddToTable.AddAthleteToContest();
             //AddToTable.DeleteAthleteFromContest();
             //AddToTable.FindAthleteContest();
-            CallWithAsync();
 
+            var result = ShowFirstAthelte();
+            Console.WriteLine("WAIT A SECOND");
+            Console.WriteLine(result.Result.LastName);
+
+            //Jag valde att använda Async för att jag tycker att man har bättre kontroll över flödet då det är lättare att se när en specifik task skall köras.
+            //Det verkar också som Async används mer, kanske för att det minskar risken för race conditions
 
         }
 
@@ -75,24 +81,16 @@ namespace SnowboardApp.UI
             context.SaveChanges();
         }
 
-        public async static void CallWithAsync()
+        // Visar upp den första athelten som finns i databasen.
+
+        public static async Task<Athlete> ShowFirstAthelte()
         {
-            string athlete1 = await GreetingAsync("Anna", 2000);
-            Console.WriteLine(athlete1);
-
+            var cont = new SnowboardAppContext();
+            var result = await cont.Athletes.FirstAsync<Athlete>();
+            return result;
         }
-
-        public static Task<string> GreetingAsync(string name, int sleepTimeMs)
-        {
-            return Task.Run<string>(() =>
-            {
-                return GreetingAsync(name, sleepTimeMs);
-            });
-        }
-
-
-
     }
-   }
+
+  }
     
 
