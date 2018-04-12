@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnowboardApp.Domain
 {
-    // För att se vilka tävlingar atleterna tävlade i
-
+    
     public class AthleteContest
     {
         public int AthleteId { get; set; }

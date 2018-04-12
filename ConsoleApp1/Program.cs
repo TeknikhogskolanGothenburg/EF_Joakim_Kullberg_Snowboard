@@ -16,31 +16,32 @@ namespace SnowboardApp.UI
     
         static void Main(string[] args)
         {
-            //AddToTable.AddAthlete();
-            //AddToTable.AddSnowboard();
-            //AddToTable.AddContest();
-            //AddToTable.AddHomeResort();
-            //AddToTable.DeleteOne();
-            //AddToTable.DeletMany();
-            //AddToTable.AddAthletes();
+            //AddUpdateFindDeleteTable.AddAthlete();
+            //AddUpdateFindDeleteTable.AddSnowboard();
+            //AddUpdateFindDeleteTable.AddContest();
+            //AddUpdateFindDeleteTable.AddHomeResort();
+            //AddUpdateFindDeleteTable.DeleteOne();
+            //AddUpdateFindDeleteTable.DeletMany();
+            //AddUpdateFindDeleteTable.AddAthletes();
             //AddSnowboardToAthelte();
             //AddManyToManyObject();
-            //AddToTable.Find();
-            //AddToTable.SelectRawSql();
-            //AddToTable.GetAllAthletes();           
-            //AddToTable.SelectRawSqlWithOrderingAndFilter();
-            //AddToTable.Update();
-            //AddToTable.UpdateMany();
-            //AddToTable.AddAthleteToContest();
-            //AddToTable.DeleteAthleteFromContest();
-            //AddToTable.FindAthleteContest();
+            //AddUpdateFindDeleteTable.Find();
+            //AddUpdateFindDeleteTable.SelectRawSql();
+            //AddUpdateFindDeleteTable.GetAllAthletes();           
+            //AddUpdateFindDeleteTable.SelectRawSqlWithOrderingAndFilter();
+            //AddUpdateFindDeleteTable.Update();
+            //AddUpdateFindDeleteTable.UpdateMany();
+            //AddUpdateFindDeleteTable.AddAthleteToContest();
+            //AddUpdateFindDeleteTable.DeleteAthleteFromContest();
+            //AddUpdateFindDeleteTable.FindAthleteContest();
 
             //var result = ShowFirstAthelte();
             //Console.WriteLine("WAIT A SECOND");
             //Console.WriteLine(result.Result.LastName);
 
-            //Jag valde att använda Async för att jag tycker att man har bättre kontroll över flödet då det är lättare att se när en specifik task skall köras.
-            //Det verkar också som Async används mer, kanske för att det minskar risken för race conditions
+            //Jag valde att använda Async för att jag tycker att man lättare kan se när en specifik task skall köras.
+            //Det verkar också som Async används av fler utvecklare, kanske för att det minskar risken för race conditions.
+            
 
         }
 
