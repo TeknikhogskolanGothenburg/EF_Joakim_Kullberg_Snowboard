@@ -209,7 +209,7 @@ namespace SnowboardApp.UI
             _context.SaveChanges();
         }
 
-        public static void UpdateMany() { // FUNKAR EJ, ATHLETE ID ÄR UNIK, LÄGG TILL EN COLUMN I AHTLETECONTEST?
+        public static void UpdateMany() {
         {
 
             var context = new SnowboardAppContext();

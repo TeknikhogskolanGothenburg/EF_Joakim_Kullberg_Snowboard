@@ -23,7 +23,7 @@ namespace SnowboardApp.UI
             //AddUpdateFindDeleteTable.DeleteOne();
             //AddUpdateFindDeleteTable.DeletMany();
             //AddUpdateFindDeleteTable.AddAthletes();
-            //AddSnowboardToAthelte();
+            //AddSnowboardsToAthelte();
             //AddManyToManyObject();
             //AddUpdateFindDeleteTable.Find();
             //AddUpdateFindDeleteTable.SelectRawSql();
@@ -45,7 +45,7 @@ namespace SnowboardApp.UI
 
         }
 
-        private static void AddSnowboardToAthelte()
+        private static void AddSnowboardsToAthelte()
         {
             var context = new SnowboardAppContext();
             var snowboard = new Snowboard { Brand = "Rome", Length = 150, Name = "SKS", AthelteId = 14 };
