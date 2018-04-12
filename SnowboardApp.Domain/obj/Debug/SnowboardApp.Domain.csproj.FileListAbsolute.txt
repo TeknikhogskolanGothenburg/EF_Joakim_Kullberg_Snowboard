@@ -1,0 +1,6 @@
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\bin\Debug\SnowboardApp.Domain.dll
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\bin\Debug\SnowboardApp.Domain.pdb
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\obj\Debug\SnowboardApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\obj\Debug\SnowboardApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\obj\Debug\SnowboardApp.Domain.dll
+C:\Users\KB\source\repos\EntityFrameCoreProject\SnowboardApp.Domain\obj\Debug\SnowboardApp.Domain.pdb
